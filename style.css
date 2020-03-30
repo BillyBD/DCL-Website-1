@@ -20,6 +20,7 @@ header .navigation-bar{
 }
 
 header .branding img{
+    transition: 400ms;
     float: left;
     width: 225px;
     height: 150px;
@@ -45,7 +46,7 @@ header .navigation-bar li a{
     color: #ffffff;
     text-decoration: none;
     font-family: 'Dosis', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 header .navigation-bar li a:hover{
@@ -57,7 +58,149 @@ header .navigation-bar li a:hover{
     text-shadow: 0px 0px 0px;
 }
 
-#showcase img{
+#showcase{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../img/DCL_WebsiteBanner.PNG");
+    -webkit-background-size: cover;
     width: 100%;
-    height: 790px;
+    height: 845px;
+    background-size: cover;
+    position: fixed;
 }
+
+#showcase h1{
+    transition: 400ms;
+    font-size: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 200px;
+    text-shadow: 2px 2px 4px gray;
+}
+
+#showcase p{
+    transition: 400ms;
+    font-size: 45px;
+    text-align: center;
+    font-family: arial;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px gray;  
+}
+
+#showcase .showcase-book {
+    background-color:#CC453F;
+    color: #ffffff;;
+    border-radius: 5px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:25px;
+	padding:15px 10px;
+    text-decoration:none;
+    transition: 400ms;
+    text-align: center;
+    margin-left: 850px;
+    margin-top: 25px;
+    box-shadow: 2px 2px 4px gray;
+
+}
+#showcase .showcase-book:hover {
+    transition: 400ms;
+    background-color: #ffffff;
+    color: black;
+}
+
+/*Desktop Tops*/
+@media (min-width: 1281px) {
+    #showcase .showcase-book {
+        background-color:#CC453F;
+        color: #ffffff;;
+        border-radius: 5px;
+        display:inline-block;
+        cursor:pointer;
+        font-family:Arial;
+        font-size:25px;
+        padding:15px 10px;
+        text-decoration:none;
+        transition: 400ms;
+        text-align: center;
+        margin-left: 545px;
+        margin-top: 25px;
+        box-shadow: 2px 2px 4px gray;
+    
+    }
+}
+
+/*Phones*/
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+    header .navigation-bar li a{
+        transition: 400ms;
+        color: #ffffff;
+        text-decoration: none;
+        font-family: 'Dosis', sans-serif;
+        font-size: 24px;
+    }
+
+    #showcase .showcase-book {
+        background-color:#CC453F;
+        color: #ffffff;;
+        border-radius: 5px;
+        display:inline-block;
+        cursor:pointer;
+        font-family:Arial;
+        font-size:25px;
+        padding:15px 10px;
+        text-decoration:none;
+        transition: 400ms;
+        text-align: center;
+        margin-left: 400px;
+        margin-top: 25px;
+        box-shadow: 2px 2px 4px gray;
+    
+    }
+}
+
+
+/*Laptops*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+    #showcase .showcase-book {
+        background-color:#CC453F;
+        color: #ffffff;;
+        border-radius: 5px;
+        display:inline-block;
+        cursor:pointer;
+        font-family:Arial;
+        font-size:25px;
+        padding:15px 10px;
+        text-decoration:none;
+        transition: 400ms;
+        text-align: center;
+        margin-left: 545px;
+        margin-top: 25px;
+        box-shadow: 2px 2px 4px gray;
+    
+    }
+}
+
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    #showcase .showcase-book {
+        background-color:#CC453F;
+        color: #ffffff;;
+        border-radius: 5px;
+        display:inline-block;
+        cursor:pointer;
+        font-family:Arial;
+        font-size:25px;
+        padding:15px 10px;
+        text-decoration:none;
+        transition: 400ms;
+        text-align: center;
+        margin-left: 400px;
+        margin-top: 25px;
+        box-shadow: 2px 2px 4px gray;
+    
+    }
+}
+
+/*Created by iiLxnden*/
